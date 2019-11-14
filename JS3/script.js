@@ -14,6 +14,7 @@ function changeDiv() {
 	var myDiv = document.getElementById('myDiv');
 	myDiv.classList.remove('salmon');
 	myDiv.classList.add('purple');
+	myDiv.classList.add('redText');
 }
 
 function toggleDiv() {
@@ -23,7 +24,8 @@ function toggleDiv() {
 
 function clearDiv() {
 	var myDiv = document.getElementById('myDiv');
-	myDiv.innerHTML = '';
+	//myDiv.innerHTML = '';
+	myDiv.innerHTML = "<h1>Test</h1> <div><p>I'm another div</p></div>";
 }
 var button2 = document.getElementById('myButton2');
 button2.addEventListener('click', (event) => {

@@ -6,6 +6,10 @@
 	background-color: purple;
 }
 
+.redText {
+	color: red;
+}
+
 .hide {
 	display: none;
 }
