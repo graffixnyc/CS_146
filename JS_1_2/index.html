@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script>document.write("<title>I'm a title</title>")</script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <h1 id="myH1">Hello</h1>
+        <button onclick="changeH1()">Click Me!</button>
+        <button onclick="alert('Hello World')">Alert Me</button>
+        <button onclick="demonstrateVarVersusLet()">Var vs Let</button>
+        <button onclick="printArray()">Print Array</button>
+        <button onclick="test()">Arrow Function</button>
+        <script>document.write('<p>Hello World inline</p>');</script>
+        
+        
+        <script src="script.js" async defer></script>
+        
+        
+        <script>writeP()</script>
+        
+        <button onclick="varTest()">Val Ref</button>
+    
+
+     <script>
+       function varTest(){
+        var abc = 27;
+       var def = "hello";
+       var xyz = def;
+       var foo = [1,2,3]
+       var bar = foo;
+
+       console.log (abc);
+       console.log (def);
+       console.log(xyz);
+       console.log (foo)
+      console.log (bar);
+      foo[0] = 999
+      console.log ("FOOO");
+      console.log (foo)
+      console.log ("BARRRRR");
+      console.log (bar);
+      def ="bye"
+      console.log (def);
+       console.log(xyz);
+       }
+
+     </script>
+    </body>
+</html>

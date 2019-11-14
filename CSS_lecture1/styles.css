@@ -1,34 +1,52 @@
 /* This will target  every h1 on your page */
-h1 {
-  color: blue;
-  background-color: yellow;
-}
 
 /* This will target an element with the ID helloworld we use the # in front of the selector to designate that it is an id selector
   Remember, only ONE element on the page can have the ID.  They are unique.
 */
-#helloworld {
-  color: purple;
-  background-color: aquamarine;
+p {
+	color: aqua;
+	font-weight: bold;
+}
+
+#HelloWorld {
+	color: purple;
+	font-weight: normal;
 }
 
 /* This will target  every p on your page */
-p {
-  color: red;
-}
 
 /* This will target an element with the class pinkBlueStyle we use the . in front of the selector to designate that it is a class selector
 	Multiple elements(even of different types) can use the same class
 */
 .pinkBlueStyle {
-  background-color: #fc03be;
-  color: blue;
+	background-color: #fc03be;
+	color: blue;
+	text-decoration: underline;
 }
 
 /* This will target an element with the class mySecondClass we use the . in front of the selector to designate that it is a class selector
   Multiple elements(even of different types) can use the same class
 */
 .mySecondClass {
-  font-style: italic;
-  font-size: 42pt;
+	font-style: italic;
+	color: yellow;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: magenta;
+}
+
+p:first-child {
+	background-color: coral;
 }
