@@ -6,6 +6,10 @@ function addP() {
 	myDiv.appendChild(p);
 }
 
+var getURL = () => {
+	alert(document.URL);
+};
+
 var button2 = document.getElementById('myButton2');
 button2.addEventListener('click', (event) => {
 	alert('I was clicked');
