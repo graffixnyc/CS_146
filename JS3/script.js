@@ -25,7 +25,7 @@ function toggleDiv() {
 function clearDiv() {
 	var myDiv = document.getElementById('myDiv');
 	myDiv.innerHTML = '';
-	//myDiv.innerHTML = "<h1>Test</h1> <div><p>I'm another div</p></div>";
+	myDiv.innerHTML = "<h1>Test</h1> <div><p>I'm another div</p></div>";
 }
 var button2 = document.getElementById('myButton2');
 button2.addEventListener('click', (event) => {

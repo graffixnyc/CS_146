@@ -50,7 +50,7 @@ function main() {
 
 	//haveAnInnerFunction();
 
-	myInnerFunction();
+	//myInnerFunction();
 
 	function demonstrateVarVersusLet() {
 		// Say you want to do some basic counts, like count the number of odds and then
@@ -96,6 +96,13 @@ function main() {
 	}
 
 	demonstrateVarVersusLet();
+
+	var foo = [ 1, 2, 3 ];
+	var boo = [ ...foo ];
+	boo.push(100);
+	boo[0] = 'test';
+	console.log(boo);
+	console.log(foo);
 }
 
 main();

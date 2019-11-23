@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "CS-146's first Node/Express.js server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Hill",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
